@@ -142,37 +142,37 @@
 			},
 			"response": []
 		},
-		{
-			"name": "Update Stock",
-			"request": {
-				"method": "PUT",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"stock\":15\n}",
-					"options": {
-						"raw": {
-							"language": "json"
+			{
+				"name": "Update Stock",
+				"request": {
+					"method": "PUT",
+					"header": [],
+					"body": {
+						"mode": "raw",
+						"raw": "{\n    \"stock\":15\n}",
+						"options": {
+							"raw": {
+								"language": "json"
+							}
 						}
+					},
+					"url": {
+						"raw": "http://localhost:8080/api/items/updateStock/5",
+						"protocol": "http",
+						"host": [
+							"localhost"
+						],
+						"port": "8080",
+						"path": [
+							"api",
+							"items",
+							"updateStock",
+							"5"
+						]
 					}
 				},
-				"url": {
-					"raw": "http://localhost:8080/api/items/updateStock/5",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"items",
-						"updateStock",
-						"5"
-					]
-				}
+				"response": []
 			},
-			"response": []
-		},
 		{
 			"name": "Get All Stock Items",
 			"request": {
